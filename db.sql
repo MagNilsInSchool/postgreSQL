@@ -99,7 +99,7 @@ ORDER BY p.join_date ASC;
 -- !Bonus Task: Players' Favorite Games  
 -- Use JOIN and GROUP BY to find out which game each player has played the most times. Show the player’s name and the game title.
 
---! 100% CHATGPT SOLUTION:
+--! 100% CHATGPT SOLUTION JUST SAVING FOR FUTURE REFERENCE:
 
 WITH plays_per_game AS (
   SELECT player_id, game_id, COUNT(*) AS plays
